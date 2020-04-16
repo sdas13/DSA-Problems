@@ -8,3 +8,10 @@ Input: arr = [1,2,3,4], k = 2
 Output: 6 The missing positive integers are [5,6,7,...]. The 2nd missing positive integer is 6.
 """
 
+
+class Solution:
+    def findKthPositive(self, arr: list, k: int) -> int:
+        pass
+
+
+print(Solution().findKthPositive([2, 3, 4, 7, 11], 5))
