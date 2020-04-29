@@ -12,7 +12,18 @@ One longest palindrome that can be built is "dccaccd", whose length is 7.
 
 class Solution:
     def longestPalindrome(self, s: str) -> int:
-        pass
+        counts = {}  # dict not required, set would just do
+
+        max_len = 0
+        for i in s:
+            counts[i] = counts.get(i, 0) + 1
+            if counts[i] == 2:
+                max_len += 1
+                del counts[i]
+
+        if len(counts.keys()) > 0: return max_len + 1
+
+        return max_len
 
 
 print(Solution().longestPalindrome('abccccdd'))
