@@ -26,4 +26,6 @@ class Solution:
         return max_len
 
 
-print(Solution().longestPalindrome('abccccdd'))
+# print(Solution().longestPalindrome('abccccdd'))
+# print(Solution().longestPalindrome('abcd'))
+print(Solution().longestPalindrome('bb'))
