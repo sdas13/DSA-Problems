@@ -18,11 +18,27 @@ Output: ["KFC","Burger King","Tapioca Express","Shogun"]
 class Solution:
     def findRestaurant(self, list1: list, list2: list) -> list:
 
-        pass
+        objs = {}
+        min_indx = float('inf')
+        res = []
+        # {u: i for i, u in enumerate(A)}
+        for i, j in enumerate(list1):
+            objs[j] = i
 
-    # print(Solution().findRestaurant(
+        # print(objs)
 
+        for i, j in enumerate(list2):
+            if j in objs:
+                sum_i = i + objs[j]
+                if sum_i < min_indx:
+                    res = [j]
+                    min_indx = sum_i
+                elif sum_i == min_indx:
+                    res.append(j)
 
+        return res
+
+# print(Solution().findRestaurant(
 #     ["Shogun", "Tapioca Express", "Burger King", "KFC"],
 #     ["Piatti", "The Grill at Torrey Pines", "Hungry Hunter Steakhouse", "Shogun"]
 # ))
