@@ -16,7 +16,19 @@ Output: false
 class Solution:
     def isHappy(self, n: int) -> bool:
 
-        pass
+        sets = set()
+
+        while True:
+
+            temp = 0
+            while n != 0:
+                temp += (n % 10) ** 2
+                n = n // 10
+            n = temp
+            if n in sets: return False
+            sets.add(n)
+            if temp == 1:
+                return True
 
 
 # print(Solution().isHappy(19))
