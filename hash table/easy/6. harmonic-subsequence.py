@@ -11,3 +11,15 @@ Output: 2
 Input: nums = [1,1,1,1]
 Output: 0
 """
+
+import collections
+
+
+class Solution:
+    def findLHS(self, nums: list) -> int:
+
+        pass
+
+
+print(Solution().findLHS([1, 3, 2, 2, 5, 2, 3, 7]))
+# print(Solution().findLHS([1, 1, 1, 1]))
