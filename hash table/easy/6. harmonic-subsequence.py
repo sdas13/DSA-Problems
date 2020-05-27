@@ -18,7 +18,23 @@ import collections
 class Solution:
     def findLHS(self, nums: list) -> int:
 
-        pass
+        max_count = 0
+        counts = {}
+
+        # counts = collections.Counter(nums)
+        # for i in nums:
+        #     if i + 1 in counts:
+        #         max_count = max(max_count, counts[i] + counts[i + 1])
+
+        for i in nums:
+            counts[i] = counts.get(i, 0) + 1
+            if i + 1 in counts:
+                max_count = max(max_count, counts[i] + counts[i + 1])
+
+            if i - 1 in counts:
+                max_count = max(max_count, counts[i] + counts[i - 1])
+
+        return max_count
 
 
 print(Solution().findLHS([1, 3, 2, 2, 5, 2, 3, 7]))
