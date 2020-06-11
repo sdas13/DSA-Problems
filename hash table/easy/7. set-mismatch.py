@@ -9,3 +9,13 @@ https://leetcode.com/problems/set-mismatch/discuss/105558/Oneliner-Python
 Input: nums = [1,2,2,4]
 Output: [2,3]
 """
+
+
+class Solution:
+    def findErrorNums(self, nums: list) -> list:
+        pass
+
+
+# print(Solution().findErrorNums([1, 2, 2, 4]))
+# print(Solution().findErrorNums([1, 1]))
+print(Solution().findErrorNums([2, 2]))
