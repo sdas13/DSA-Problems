@@ -13,7 +13,20 @@ Output: [2,3]
 
 class Solution:
     def findErrorNums(self, nums: list) -> list:
-        pass
+        num_list = [0] * ((len(nums)) + 1)
+
+        for i in nums:
+            num_list[i] += 1
+
+        for i in range(1, len(num_list)):
+
+            if num_list[i] == 0:
+                missing = i
+
+            if num_list[i] == 2:
+                dup = i
+
+        return [dup, missing]
 
 
 # print(Solution().findErrorNums([1, 2, 2, 4]))
