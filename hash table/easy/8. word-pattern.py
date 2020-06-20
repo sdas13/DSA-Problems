@@ -29,4 +29,6 @@ class Solution:
         return True
 
 
-
+# Solution().wordPattern('abd', 'dog cat cat')
+# Solution().wordPattern('abba', 'dog cat cat dog')
+Solution().wordPattern('abc', 'b c a')
