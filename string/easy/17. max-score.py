@@ -11,3 +11,7 @@ Input: s = "00111"
 Output: 5
 """
 
+
+class Solution:
+    def maxScore(self, s: str) -> int:
+        pass
