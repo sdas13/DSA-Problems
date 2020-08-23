@@ -11,3 +11,12 @@ return 2.
 
 """
 
+
+class Solution:
+    def firstUniqChar(self, s: str) -> int:
+        pass
+
+
+# print(Solution().firstUniqChar('leetcode'))
+# print(Solution().firstUniqChar('loveleetcode'))
+print(Solution().firstUniqChar('a'))
