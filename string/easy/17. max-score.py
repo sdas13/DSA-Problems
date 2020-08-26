@@ -15,3 +15,7 @@ Output: 5
 class Solution:
     def maxScore(self, s: str) -> int:
         pass
+
+
+print(Solution().maxScore('011101'))
+print(Solution().maxScore('00111'))
