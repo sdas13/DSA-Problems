@@ -14,8 +14,39 @@ Output: 5
 
 class Solution:
     def maxScore(self, s: str) -> int:
-        pass
+
+        if s[0] == '0':
+            count_at_each_indx = {0: [1, 0]}
+        else:
+            count_at_each_indx = {0: [0, 0]}
+
+        for i in range(1, len(s)):
+            if s[i] == '0':
+                count_at_each_indx[i] = [count_at_each_indx[i - 1][0] + 1, 0]
+            else:
+                count_at_each_indx[i] = [count_at_each_indx[i - 1][0], 0]
+
+        if s[i] == '1':
+            count_at_each_indx[i][1] = 1
+        else:
+            count_at_each_indx[i][1] = 0
+
+        for i in range(len(s) - 2, -1, -1):
+            if s[i] == '1':
+                count_at_each_indx[i] = [count_at_each_indx[i][0], count_at_each_indx[i + 1][1] + 1]
+            else:
+                count_at_each_indx[i] = [count_at_each_indx[i][0], count_at_each_indx[i + 1][1]]
+
+        total = 0
+
+        for i in range(1, len(s)):
+            total = max(total, count_at_each_indx[i - 1][0] + count_at_each_indx[i][1])
+
+        return total
 
 
-print(Solution().maxScore('011101'))
-print(Solution().maxScore('00111'))
+# print(Solution().maxScore('011101'))
+# print(Solution().maxScore('01001'))
+# print(Solution().maxScore('00111'))
+# print(Solution().maxScore('1111'))
+print(Solution().maxScore('0000'))
