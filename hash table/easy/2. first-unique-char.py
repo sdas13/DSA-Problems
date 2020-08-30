@@ -14,7 +14,15 @@ return 2.
 
 class Solution:
     def firstUniqChar(self, s: str) -> int:
-        pass
+        counter = {}
+        for i in s:
+            counter[i] = counter.get(i, 0) + 1
+
+        for i in range(len(s)):
+            if counter[s[i]] == 1:
+                return i
+
+        return -1
 
 
 # print(Solution().firstUniqChar('leetcode'))
