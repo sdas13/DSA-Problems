@@ -41,8 +41,8 @@ class Solution:
         return ""
 
 
-print(Solution().gcdOfStrings('ABCABC', 'ABC'))
-print(Solution().gcdOfStrings('ABABAB', 'ABAB'))
-print(Solution().gcdOfStrings('LEFT', 'CODE'))
-print(Solution().gcdOfStrings('ABCDEF', 'ABC'))
+# print(Solution().gcdOfStrings('ABCABC', 'ABC'))
+# print(Solution().gcdOfStrings('ABABAB', 'ABAB'))
+# print(Solution().gcdOfStrings('LEFT', 'CODE'))
+# print(Solution().gcdOfStrings('ABCDEF', 'ABC'))
 print(Solution().gcdOfStrings('ABCABCABC', 'ABCAA'))
