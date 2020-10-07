@@ -15,6 +15,18 @@ Output: true
 
 class Solution:
     def canConstruct(self, ransomNote: str, magazine: str) -> bool:
-        pass
+        letters = {}
+        for i in magazine:
+            letters[i] = letters.get(i, 0) + 1
 
-print(Solution().canConstruct('a', 'b'))
+        for i in ransomNote:
+            if not letters.get(i, 0):
+                return False
+            letters[i] -= 1
+
+        return True
+
+
+# print(Solution().canConstruct('a', 'b'))
+# print(Solution().canConstruct('aa', 'ab'))
+print(Solution().canConstruct('aa', 'aab'))
