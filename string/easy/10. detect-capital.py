@@ -15,6 +15,7 @@ Output: False
 
 class Solution:
     def detectCapitalUse(self, word: str) -> bool:
-        pass
+        return word.capitalize() == word or word.isupper() or word.islower()
+
 
 print(Solution().detectCapitalUse('USA'))
