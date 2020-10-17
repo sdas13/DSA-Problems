@@ -25,7 +25,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
-    <configuration name="1. two-sum" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="2. plus-one" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Array" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -37,7 +37,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1. two-sum.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2. plus-one.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -61,52 +61,41 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="424" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602916966707">
+    <state x="424" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602920222270">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="424" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1602916966707" />
-    <state width="1899" height="376" key="GridCell.Tab.0.bottom" timestamp="1602918269134">
+    <state x="424" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1602920222270" />
+    <state width="1899" height="305" key="GridCell.Tab.0.bottom" timestamp="1602922295120">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="376" key="GridCell.Tab.0.bottom/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1602918269134" />
-    <state width="1899" height="376" key="GridCell.Tab.0.center" timestamp="1602918269133">
+    <state width="1899" height="305" key="GridCell.Tab.0.bottom/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1602922295120" />
+    <state width="1899" height="305" key="GridCell.Tab.0.center" timestamp="1602922295118">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="376" key="GridCell.Tab.0.center/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1602918269133" />
-    <state width="1899" height="376" key="GridCell.Tab.0.left" timestamp="1602918269132">
+    <state width="1899" height="305" key="GridCell.Tab.0.center/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1602922295118" />
+    <state width="1899" height="305" key="GridCell.Tab.0.left" timestamp="1602922295117">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="376" key="GridCell.Tab.0.left/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1602918269132" />
-    <state width="1899" height="376" key="GridCell.Tab.0.right" timestamp="1602918269133">
+    <state width="1899" height="305" key="GridCell.Tab.0.left/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1602922295117" />
+    <state width="1899" height="305" key="GridCell.Tab.0.right" timestamp="1602922295119">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="376" key="GridCell.Tab.0.right/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1602918269133" />
-    <state width="1899" height="376" key="GridCell.Tab.1.bottom" timestamp="1602918269557">
+    <state width="1899" height="305" key="GridCell.Tab.0.right/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1602922295119" />
+    <state width="1899" height="376" key="GridCell.Tab.1.bottom" timestamp="1602920504692">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="376" key="GridCell.Tab.1.bottom/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1602918269557" />
-    <state width="1899" height="376" key="GridCell.Tab.1.center" timestamp="1602918269556">
+    <state width="1899" height="376" key="GridCell.Tab.1.bottom/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1602920504692" />
+    <state width="1899" height="376" key="GridCell.Tab.1.center" timestamp="1602920504690">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="376" key="GridCell.Tab.1.center/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1602918269556" />
-    <state width="1899" height="376" key="GridCell.Tab.1.left" timestamp="1602918269555">
+    <state width="1899" height="376" key="GridCell.Tab.1.center/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1602920504690" />
+    <state width="1899" height="376" key="GridCell.Tab.1.left" timestamp="1602920504690">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="376" key="GridCell.Tab.1.left/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1602918269555" />
-    <state width="1899" height="376" key="GridCell.Tab.1.right" timestamp="1602918269556">
+    <state width="1899" height="376" key="GridCell.Tab.1.left/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1602920504690" />
+    <state width="1899" height="376" key="GridCell.Tab.1.right" timestamp="1602920504691">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="376" key="GridCell.Tab.1.right/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1602918269556" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/1. two-sum.py</url>
-          <line>2</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state width="1899" height="376" key="GridCell.Tab.1.right/-1440.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1602920504691" />
   </component>
 </project>
