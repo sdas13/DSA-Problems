@@ -24,7 +24,6 @@ class Solution:
             '}': '{'
         }
 
-
         stack = []
 
         for i in s:
