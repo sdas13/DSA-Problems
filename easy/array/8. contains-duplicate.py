@@ -26,11 +26,9 @@ class Solution:
 
         return False
 
-        """
-        # Oneliner using set
-        s = set(nums)
-        return len(nums) != len(s)
-        """
+        # One-liner using set
+        # s = set(nums)
+        # return len(nums) != len(s)
 
 
 # print(Solution().containsDuplicate([1,1]))
