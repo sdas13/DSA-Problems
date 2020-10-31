@@ -12,6 +12,7 @@ Output: -2147483647
 
 
 class Solution:
+    #kadane algorithm
     def maxSubArray(self, nums: list) -> int:
         i = 1
         max_till_now = nums[0]
