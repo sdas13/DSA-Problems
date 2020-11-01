@@ -20,23 +20,31 @@ class Solution:
     def removeElement(self, nums: list, val: int) -> int:
         i = 0
         j = len(nums) - 1
-        count = 0
+
         while i < j:
             if nums[j] == val:
                 j -= 1
-                count += 1
 
             if nums[i] != val:
                 i += 1
+
+            if i > j:
+                break
 
             if nums[i] == val and nums[j] != val:
                 nums[i], nums[j] = nums[j], nums[i]
                 j -= 1
                 i += 1
-                count += 1
 
-        return len(nums) - count
+        return len(nums) - nums.count(val)
 
 
+# print(Solution().removeElement([], 2))
+# print(Solution().removeElement([1], 2))
+# print(Solution().removeElement([2,2,2], 2))
+# print(Solution().removeElement([2, 1, 2, 2, 1, 2], 2))
+# print(Solution().removeElement([1, 1, 1, 2, 2, 2], 2))
+# print(Solution().removeElement([2, 2, 2, 1, 1, 1], 2))
 # print(Solution().removeElement([3, 2, 2, 3], 3))
-print(Solution().removeElement([0, 1, 2, 2, 3, 0, 4, 2], 2))
+# print(Solution().removeElement([3, 2, 2, 3], 3))
+# print(Solution().removeElement([0, 1, 2, 2, 3, 0, 4, 2], 2))
