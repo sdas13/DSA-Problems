@@ -31,7 +31,7 @@ class Solution:
             else:
                 min_indx = mid + 1
 
-        return max_indx + 1
+        return min_indx
 
 
 # print(Solution().searchInsert([1, 3, 5, 6], 5))
