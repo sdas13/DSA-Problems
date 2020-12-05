@@ -16,15 +16,21 @@ class Solution:
         i = 0
         j = len(s) - 1
 
-        while i<j:
-            if s[i]!=s[j]:
-                s[i+1:j+1]
-
+        while i < j:
+            if s[i] != s[j]:
+                palindrome_from_left = s[i + 1:j + 1]
+                palindrome_from_left_opposite = palindrome_from_left[::-1]
+                is_palindrome_from_left = palindrome_from_left == palindrome_from_left_opposite
+                palindrome_from_right = s[i:j]
+                palindrome_from_right_opposite = palindrome_from_right[::-1]
+                is_palindrome_from_right = palindrome_from_right == palindrome_from_right_opposite
+                return is_palindrome_from_left or is_palindrome_from_right
             else:
-                i+=1
-                j-=1
+                i += 1
+                j -= 1
 
         return True
+
 
 # print(Solution().validPalindrome('abcba'))
 # print(Solution().validPalindrome('abcbxa'))
@@ -33,4 +39,5 @@ class Solution:
 # print(Solution().validPalindrome('radcecar'))
 # print(Solution().validPalindrome('radcecabr'))
 # print(Solution().validPalindrome('radcbecar'))
-# print(Solution().validPalindrome('lcupuufxoohdfpgjdmysgvhmvffcnqxjjxqncffvmhvgsymdjgpfdhooxfuupucul'))
+# print(Solution().validPalindrome('eccer'))
+print(Solution().validPalindrome('lcupuufxoohdfpgjdmysgvhmvffcnqxjjxqncffvmhvgsymdjgpfdhooxfuupucul'))
